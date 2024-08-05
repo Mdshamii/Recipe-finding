@@ -1,0 +1,67 @@
+body{
+    background-color: #330033;
+    background-image: url(food1landscape.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background by SVGBackgrounds.com */
+}
+
+.recipe-modal {
+    max-height: 80vh;
+    max-width: 80vw;
+}
+
+.recipe-modal::-webkit-scrollbar {
+    width: 8px;
+}
+
+.recipe-modal::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.recipe-modal::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+
+.loader.hidden {
+    display: none;
+}
+
+.loader__text {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.search-bar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-bar-center {
+    justify-content: center;
+    height: 100vh;
+}
+
+.search-bar-top {
+    justify-content: flex-start;
+    height: auto;
+}
+
+#notification {
+    text-align: center;
+    margin-top: 1rem;
+    color: #fff;
+}
